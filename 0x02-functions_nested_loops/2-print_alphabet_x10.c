@@ -1,10 +1,8 @@
 #include "main.h"
 /**
 *print_alphabet_x10 - Pribt the alphabet in lowercase.
-*
-*Return: Always 0 (Success)
 */
-void print_alphabet_x10(void)
+void print_alphabet_x10(void);
 {
 	int i;
 	char c;
@@ -15,7 +13,7 @@ void print_alphabet_x10(void)
 		{
 			_putchar(c);
 		}
-		_putchar('\n);
+		_putchar('\n');
 	}
 	
 }
